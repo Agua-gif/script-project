@@ -285,7 +285,7 @@ end
 
 function H.pickGenerator(safetyBuffer, ignoredNames)
     safetyBuffer = safetyBuffer or 5
-    local anyIncomplete=false, allOccupied=true
+    local anyIncomplete, allOccupied = false, true
     local best, bestScore = nil, -math.huge
     for _, gen in ipairs(H.getGenerators()) do
         if not H.genDone(gen) then
