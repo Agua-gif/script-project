@@ -10,7 +10,7 @@ local WindUI = loadstring(game:HttpGet(
     "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
 ))()
 local H = loadstring(game:HttpGet(
-    "https://gitlab.com/hello-world395023/legacy-world/-/raw/main/helpers/main-helper"
+    "https://raw.githubusercontent.com/Agua-gif/script-project/refs/heads/main/main-helper.lua"
 ))()
 
 local RS    = game:GetService("RunService")
